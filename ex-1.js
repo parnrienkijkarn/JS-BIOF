@@ -24,3 +24,5 @@ const provinces = {
 }
 
 // Start coding here
+let showProvinceNames = Object.keys(provinces);
+console.log(showProvinceNames);

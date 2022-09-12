@@ -11,6 +11,10 @@ const salary = {
   Alex: 12714,
   Bank: 15315,
   Pee: 27477,
-};;
+};
 
 // Start coding here
+let findValues = Object.values(salary);
+console.log(findValues);
+let findTotal = findValues.reduce((a, b) => a + b);
+console.log(`Total salary for all employees is ${findTotal}`);

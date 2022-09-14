@@ -16,5 +16,5 @@ const salary = {
 // Start coding here
 let findValues = Object.values(salary);
 console.log(findValues);
-let findTotal = findValues.reduce((a, b) => a + b);
+let findTotal = findValues.reduce((a, b) => a + b, 0);
 console.log(`Total salary for all employees is ${findTotal}`);

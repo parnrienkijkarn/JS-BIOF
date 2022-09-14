@@ -28,4 +28,5 @@ let provincesArray = Object.entries(provinces);
 console.log(provincesArray);
 
 let show50000Up = provincesArray.filter((key => key[1] > 50000));
+show50000Up = Object.fromEntries(show50000Up)
 console.log(show50000Up);
